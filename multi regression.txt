@@ -1,0 +1,59 @@
+A.linear regression
+1.in two variable
+2. multil linear regression (graph - slope)
+
+B. Multi Regression 
+		1. logistic regression - it depends on out comes!(graph - sigmold)
+			p(a)=less 0.5 then it is 0 class
+			p(a)=more than 0.5 then it is 1 class
+	CONDITIONAL PROBABLITIY:- finding the probability depend on certain condition and given info .
+			so here if more the information then the more the Accuracy of Y attribute
+
+MARKING FOR EXAM:
+		IMPORTING LIB , MOUNT DRIVE, READ DATA = 5 marks 
+
+step 1:
+goodness measure:- evaluting something (EX- how will define a studnet is good at study by considering his marks)
+			for this we use classification_report, confusion_matrix.[weather the model develop is good or bad]
+			use for classification ,clustering and regression (not for aprior and liean).
+
+			Y decide which type of logistic regression we hhave to use (binary or miulti nominal).	
+			(note : always y last column madhe nasel ...kadhi tari madhi pn asel)
+
+
+step 2: divide it into two parts(training and test).
+		- similarly like we do in linear regression
+random_state=0 //we take this because sample form training same gycha hota ... jr nasel jycha same tr random_state 
+		
+fit()- it train the model with given data.. so pass x and Y// sir example solve kartana help kartat.
+ex-					
+
+predict()- making prediction so only x is pass // sir exam ghetat
+
+to compare the outcome - y_test(model anwser or original answer), y_pred(answer computed by my model).
+
+
+WHEN WE DONE CLASSIFICATION NOT ONLY ACCURACY IS IMPORTANT BUT OTHER FACTOR ARE ALSO IMPORTANT.
+
+# CONFUSION MATRIX:-
+
+
+on the bases of this we find accuracy .
+so how to find accuracy?
+- time = 38 min recording
+
+ACCURACY = TN+TP
+	    TN+FN+TP+FP... no. of wrong +no. of correct = total accuracy{2 MARKS QUESTION}
+
+	   = 117+38/117+38+24+13=0.80 (80 %)
+		
+our model has higher accuracy at negative prediction(90%)but less at positive (covid +) ..so it is problamatical
+conclusion:- NOT ONLY ACCURACY IS IMPORTANT BUT OTHER FACTOR ARE ALSO IMPORTANT
+
+
+note - tuesday last day of lab AND 28 APRIL DISCUSSING
+
+schedule for practical
+
+6 and 8 - project 
+9 and 10 - java/ DM 
